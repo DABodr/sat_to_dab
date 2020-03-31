@@ -1,0 +1,9 @@
+[Unit]
+Description=FIFO Startup for ODR-AudioEnc and MPlayer             
+
+[Service]
+ExecStart=/home/pi/dab/fifo-start-sat.sh
+
+[Install]
+WantedBy=multi-user.target
+
